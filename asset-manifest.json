@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dev-tasir-portfolio/static/css/main.dfc83ca5.chunk.css",
+    "main.js": "/dev-tasir-portfolio/static/js/main.8f57c3c3.chunk.js",
+    "main.js.map": "/dev-tasir-portfolio/static/js/main.8f57c3c3.chunk.js.map",
+    "runtime-main.js": "/dev-tasir-portfolio/static/js/runtime-main.4d508857.js",
+    "runtime-main.js.map": "/dev-tasir-portfolio/static/js/runtime-main.4d508857.js.map",
+    "static/js/2.e1719c24.chunk.js": "/dev-tasir-portfolio/static/js/2.e1719c24.chunk.js",
+    "static/js/2.e1719c24.chunk.js.map": "/dev-tasir-portfolio/static/js/2.e1719c24.chunk.js.map",
+    "index.html": "/dev-tasir-portfolio/index.html",
+    "static/css/main.dfc83ca5.chunk.css.map": "/dev-tasir-portfolio/static/css/main.dfc83ca5.chunk.css.map",
+    "static/js/2.e1719c24.chunk.js.LICENSE.txt": "/dev-tasir-portfolio/static/js/2.e1719c24.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/dev-tasir-portfolio/static/media/bg.cbe0d57a.jpg",
+    "static/media/my-bg.3f253830.png": "/dev-tasir-portfolio/static/media/my-bg.3f253830.png",
+    "static/media/my-bg2.27494507.png": "/dev-tasir-portfolio/static/media/my-bg2.27494507.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d508857.js",
+    "static/js/2.e1719c24.chunk.js",
+    "static/css/main.dfc83ca5.chunk.css",
+    "static/js/main.8f57c3c3.chunk.js"
+  ]
+}
