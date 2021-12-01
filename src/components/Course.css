@@ -1,0 +1,27 @@
+.course-container {
+    padding: 30px 15%;
+    background-image: linear-gradient(to bottom, rgb(25, 25, 25), rgb(0, 0, 0));
+    background-color: rgb(34, 34, 34);
+}
+
+.course-container h1 {
+    text-align: center;
+}
+
+.course-list-container {
+    padding: 0px 20px;
+    display: flex;
+}
+
+.courses {
+    width: 75%;
+}
+
+@media screen and (max-width:960px) {
+    .course-list-container {
+        width: 100%;
+    }
+    .course-container {
+        padding: 0px 5px;
+    }
+}

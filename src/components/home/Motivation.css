@@ -1,0 +1,55 @@
+@media screen and (max-width:960px) {
+    .motivation-cards-container {
+        padding: 10px 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .motivation-card {
+        margin: 15px 0px;
+    }
+    .motivation-card-active {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .motivation-card {
+        height: 220px;
+        width: 220px;
+    }
+    .motivation-card .image {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .motivation-card {
+        height: 200px;
+        width: 200px;
+    }
+    .motivation-card .image {
+        height: 75px;
+        width: 75px;
+    }
+    .motivation-card .name {
+        font-size: 1.2rem;
+        padding: 2px 0px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .motivation-card {
+        height: 190px;
+        width: 190px;
+    }
+    .motivation-card .image {
+        height: 70px;
+        width: 70px;
+    }
+    .motivation-card .name {
+        font-size: 1.2rem;
+        padding: 2px 0px;
+    }
+}

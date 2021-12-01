@@ -1,0 +1,103 @@
+.header {
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.header .logo {
+    margin-right: auto;
+    margin-left: 4%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    background: linear-gradient(35deg, rgb(248, 112, 0), rgb(255, 40, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav--links {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: 300ms all ease;
+}
+
+.links:hover {
+    transition: 300ms all ease;
+    background: linear-gradient(35deg, rgb(248, 112, 0), rgb(255, 40, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav--links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.text-white {
+    color: rgb(255, 249, 241);
+    text-decoration: none;
+}
+
+.button-container {
+    position: relative;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    border-bottom: 1px solid rgb(255, 187, 0);
+}
+
+.mobile-button-container {
+    display: none;
+}
+
+.menu-bar {
+    display: none;
+}
+
+@media screen and (max-width:960px) {
+    .nav--links {
+        top: 100px;
+        background-color: black;
+        position: absolute;
+        height: 90vh;
+        width: 100vw;
+        right: -100%;
+        transition: 300ms all ease;
+    }
+    .nav--links ul li {
+        display: block;
+        padding: 20px;
+    }
+    .button-container {
+        display: none;
+    }
+    .mobile-button-container {
+        display: block;
+    }
+    .menu-bar {
+        display: block;
+        margin-right: 20px;
+        font-size: 1.5rem;
+    }
+    .nav--links--active {
+        right: 0;
+        z-index: 10000000000;
+    }
+}

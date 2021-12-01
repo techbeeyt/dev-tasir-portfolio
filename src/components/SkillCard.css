@@ -1,0 +1,56 @@
+.particular-skill {
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.skill-container {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.skill-percentage {
+    position: absolute;
+    top: -1.3px;
+    border: 1px solid saddlebrown;
+    border-radius: 5px;
+    height: 8px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background-image: linear-gradient(35deg, rgb(0, 149, 248), rgb(255, 40, 255));
+    animation: load 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes load {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.show-percentage {
+    background-color: rgb(225, 0, 255);
+    position: absolute;
+    top: -30px;
+    color: rgb(59, 59, 59);
+    padding: 2px 4px;
+    border-radius: 6px;
+    opacity: 1;
+    animation: showpercentage 1500ms cubic-bezier(1, 0, 0.5, 1);
+}
+
+@keyframes showpercentage {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.showname {
+    position: absolute;
+    bottom: -25px;
+}

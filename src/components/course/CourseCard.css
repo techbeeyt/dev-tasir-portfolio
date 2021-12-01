@@ -1,0 +1,64 @@
+.card-container {
+    height: 250px;
+    width: 250px;
+    box-shadow: 1px 1px 3px rgba(255, 0, 149, 0.575);
+    background-color: rgba(0, 0, 0, 0.99);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.course-details {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0px;
+}
+
+.course-details img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.c-details {
+    margin-left: 15px;
+}
+
+.course-description {
+    padding: 10px;
+    display: none;
+    transform: translateY(-30px) scaleY(0);
+    transition: 500ms all ease;
+    transform-origin: top;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ff0095b7;
+}
+
+.cart-btn {
+    background-color: rgb(255, 176, 7);
+    border: none;
+    padding: 4px 10px;
+    border-radius: 3px;
+    color: rgb(48, 48, 48);
+}
+
+.cart-added {
+    background-color: rgb(216, 216, 216);
+    color: rgb(105, 105, 105);
+}
+
+@media screen and (max-width:960px) {
+    .course-details img {
+        height: 80px;
+        width: 80px;
+    }
+    .c-details h3 {
+        font-size: 1rem;
+    }
+    .course-details {
+        width: 100%;
+    }
+    .c-details {
+        width: 100%;
+    }
+}
